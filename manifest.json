@@ -18,6 +18,24 @@
                 "plugin"
             ],
             "versions": {
+                "1.11.2": {
+                    "changelog": "AssemblyName is now ALWAYS NeosModLoader, because apparently Windows requires this? Adds some extra logging for what nml_libs get loaded",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.11.2",
+                    "neosVersionCompatibility": ">=2021.10.17.1326",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.1"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.11.2/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },		    
                 "1.9.1": {
                     "changelog": "Logging improvements, splash screen visuals, JSON config serialization changes",
                     "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.9.1",
